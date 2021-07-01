@@ -184,7 +184,7 @@ Example values defining an SSH git repo:
 ```yaml
 airflow:
   config:
-    AIRFLOW__SCHEDULER__DAG_DIR_LIST_INTERVAL: 60
+    AIRFLOW__SCHEDULER__DAG_DIR_LIST_INTERVAL: "60"
 
 dags:
   gitSync:
@@ -217,7 +217,7 @@ Example values defining an HTTP git repo:
 ```yaml
 airflow:
   config:
-    AIRFLOW__SCHEDULER__DAG_DIR_LIST_INTERVAL: 60
+    AIRFLOW__SCHEDULER__DAG_DIR_LIST_INTERVAL: "60"
 
 dags:
   gitSync:
